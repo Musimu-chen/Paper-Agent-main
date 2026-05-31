@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(mkdir -p \"e:/Projects/Paper-Agent-main/paper_agent/agents\" \"e:/Projects/Paper-Agent-main/paper_agent/api\" \"e:/Projects/Paper-Agent-main/paper_agent/chains\" \"e:/Projects/Paper-Agent-main/paper_agent/knowledge\" \"e:/Projects/Paper-Agent-main/paper_agent/services\")",
+      "Bash(cp src/simple/*.py paper_agent/)",
+      "Bash(cp -r src/simple/agents/*.py paper_agent/agents/)",
+      "Bash(cp -r src/simple/api/*.py paper_agent/api/)",
+      "Bash(cp -r src/simple/chains/*.py paper_agent/chains/)",
+      "Bash(cp -r src/simple/knowledge/*.py paper_agent/knowledge/)"
+    ],
+    "additionalDirectories": [
+      "e:\\Projects\\Paper-Agent-main\\paper_agent"
+    ]
+  }
+}
